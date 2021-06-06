@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="40sp"
+        android:textAlignment="center"
+        android:text="Simple Counter"
+        android:textColor="#FFA668A6"
+        android:fontFamily="sans-serif-black"
+        />
+    <Button
+        android:layout_marginTop="50sp"
+        android:id="@+id/increment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="+"
+        android:textColor="#E91E63"
+        android:textSize="20sp"
+        android:onClick="increment"
+        />
+
+    <Button
+        android:layout_marginTop="50sp"
+        android:id="@+id/decrement"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="-"
+        android:textColor="#E91E63"
+        android:textSize="20sp"
+        android:onClick="decrement"
+        />
+    <TextView
+        android:id="@+id/msg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="40sp"
+        android:textAlignment="center"
+        android:textColor="#4CAF50"
+        android:fontFamily="sans-serif-black"
+        />
+
+</LinearLayout>
